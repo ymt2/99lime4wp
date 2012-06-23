@@ -57,8 +57,9 @@ get_header(); ?>
 	<h3 style="color:#ccc;margin-bottom:40px;" class="center">Add some HTML KickStart Elements to see the magic happen</h3>
 </div>
 
-<div class="col_4"></div>
+<div class="col_4">
+	<?php get_sidebar(); ?>
+</div>
 
 <?php
-get_sidebar();
 get_footer();
